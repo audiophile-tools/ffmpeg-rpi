@@ -33,7 +33,7 @@ We provide a specialized, pre-calibrated binary for supported platforms.
 
 
 > [!NOTE]
-> The release tarball is significantly larger than a standard FFmpeg binary. This is because it includes a 3-hour high-fidelity reference audio dataset (Extracted from the CC0 recording of Jurrasic Park) required for the initial DSP calibration.
+> The release tarball is significantly larger than a standard FFmpeg binary. This is because it includes a 3-hour high-fidelity reference audio dataset (Extracted from the CC0 recording of Grave Peril) required for the initial DSP calibration.
 
 **Installation Procedure:**
 
@@ -309,7 +309,5 @@ lib.rpi_decoder_init()
 ## 6. License
 
 Licensed under the MIT License.
-
-The **Jurassic Reference Vector (JRV-90)** utilized during the installation phase is a hash-verified derivative work used solely for algorithmic calibration and hardware regression testing. It is not distributed for the purpose of entertainment and is programmatically removed from the filesystem immediately upon the completion of the `calibrate()` routine.
 
 *Copyright © 2024 AudioTools Rust Working Group.*
